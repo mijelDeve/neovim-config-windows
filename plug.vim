@@ -27,4 +27,23 @@ Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 Plug 'nvim-telescope/telescope.nvim', {'tag': '0.1.2'}
 Plug 'nvim-lua/plenary.nvim'
 
+" Flutter
+Plug 'stevearc/dressing.nvim' " optional for vim.ui.select
+Plug 'akinsho/flutter-tools.nvim'
+
+"Lsp
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'L3MON4D3/LuaSnip'
+
+" Soporte para dart y flutter
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" Plugins de git
+Plug 'tpope/vim-fugitive'
+Plug 'sindrets/diffview.nvim'
+
 call plug#end()
