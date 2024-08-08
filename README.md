@@ -6,11 +6,14 @@ https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 
 # Comandos
 
-1. Para formatear código en dart ejecutar
+1. Comandos para dart y Flutter
 
-``` :DartFormat ```
+```
+:DartFormat  - Formato de código
+:FlutterRun - Ejecutar flutter en modo desarrollo
+```
 
-2. Para revisar cambios - Git
+2. Git
 
 ```
 :Git commit
@@ -20,9 +23,11 @@ https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 :DiffviewClose - Cierra la vista de diferencias.
 :DiffviewFileHistory - Muestra el historial de un archivo específico.
 
-:FlutterRun - Ejecutar flutter en modo desarrollo
+```
 
 
+3. Paneles
+```
 :vsplit - abrir segunda pantalla a la derecha
 :split - abir segunda pantalla abajo
 
