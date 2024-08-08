@@ -134,8 +134,24 @@ null_ls.setup({
     null_ls.builtins.formatting.clang_format, -- C, C++
     null_ls.builtins.formatting.stylua,      -- Lua
     null_ls.builtins.formatting.rustfmt,     -- Rust
-    -- Agrega más formateadores según tus necesidades
+    null_ls.builtins.formatting.prettier,    -- Para archivos Blade y frontend
+  },
+})
+
+EOF
+
+" Autocompletado de llaves"
+lua << EOF
+require('nvim-autopairs').setup{}
+EOF
+
+" Formateador nuevo"
+lua << EOF
+require("conform").setup({
+  format_on_save = {
+    -- These options will be passed to conform.format()
+    timeout_ms = 500,
+    lsp_format = "fallback",
   },
 })
 EOF
-

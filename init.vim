@@ -8,6 +8,9 @@ set updatetime=300
 set clipboard=unnamed
 set showcmd
 set encoding=utf-8
+set tabstop=2       " Número de espacios que equivale a un tab
+set shiftwidth=2    " Número de espacios utilizados para (de)indentar
+set expandtab       " Convierte tabs en espacios
 
 syntax on
 

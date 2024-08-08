@@ -53,4 +53,10 @@ Plug 'jose-elias-alvarez/null-ls.nvim'
 " Laravel
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Autocompletado de llaves
+Plug 'windwp/nvim-autopairs'
+
+" Formateador para varios lenguajes
+Plug 'stevearc/conform.nvim'
+
 call plug#end()

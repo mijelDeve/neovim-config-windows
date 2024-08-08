@@ -5,6 +5,7 @@
 https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 
 2. Instalar
+
 ```
 npm install -g intelephense
 :CocInstall coc-phpls
@@ -32,8 +33,8 @@ npm install -g prettier
 
 ```
 
-
 3. Paneles
+
 ```
 :vsplit - abrir segunda pantalla a la derecha
 :split - abir segunda pantalla abajo
@@ -47,6 +48,19 @@ Ctrl+w, w: Alternar entre ventanas.
 ```
 
 4. Laravel
+
 ```
 ctrl + y : Utiliza el autocompletado en lugar de presioanr el tab
+```
+
+5. Identación de varias líneas
+
+```
+    Selecciona las líneas:
+
+    Pulsa V para entrar en visual line mode.
+    Usa las teclas de movimiento (j, k, etc.) para seleccionar las líneas.
+    Indentar las líneas:
+
+    Pulsa > para indentar o < para des-indentar.
 ```
