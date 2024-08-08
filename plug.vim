@@ -16,6 +16,7 @@ Plug 'romgrk/barbar.nvim'
 
 " Icons
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'ryanoasis/vim-devicons'
 
 " Rust 
 Plug 'rust-lang/rust.vim'
@@ -45,5 +46,11 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plugins de git
 Plug 'tpope/vim-fugitive'
 Plug 'sindrets/diffview.nvim'
+
+" Formateador
+Plug 'jose-elias-alvarez/null-ls.nvim'
+
+" Laravel
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()

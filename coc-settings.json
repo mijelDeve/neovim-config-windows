@@ -1,0 +1,7 @@
+{
+  "coc.preferences.tabComplete": "always", // Habilita el uso de `Tab` para autocompletado
+  "coc.preferences.snippetSupport": true,  // Habilita el soporte para snippets
+  "suggest.autoTrigger": "always",         // Activa el autocompletado automáticamente
+  "suggest.noselect": false,
+  "snippets.ultisnips.pythonPrompt": false // Selecciona automáticamente la primera opción
+}

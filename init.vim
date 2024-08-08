@@ -3,7 +3,8 @@ set number
 set relativenumber
 set ruler
 set cursorline
-set updatetime=100
+set hidden
+set updatetime=300
 set clipboard=unnamed
 set showcmd
 set encoding=utf-8
@@ -17,3 +18,6 @@ runtime ./keybindings.vim
 
 " ColorScheme
 colorscheme flow
+
+" Laravel config
+let g:coc_global_extensions = ['coc-phpls', 'coc-snippets']

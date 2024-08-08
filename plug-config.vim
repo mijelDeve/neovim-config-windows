@@ -120,3 +120,22 @@ augroup END
 lua << EOF
 require('diffview').setup()
 EOF
+
+" Formateador
+" Configuración de nvim-lspconfig y null-ls en Lua
+lua << EOF
+local null_ls = require('null-ls')
+
+-- Configuración de null-ls
+null_ls.setup({
+  sources = {
+    null_ls.builtins.formatting.prettier,    -- JavaScript, TypeScript, JSON
+    null_ls.builtins.formatting.black,       -- Python
+    null_ls.builtins.formatting.clang_format, -- C, C++
+    null_ls.builtins.formatting.stylua,      -- Lua
+    null_ls.builtins.formatting.rustfmt,     -- Rust
+    -- Agrega más formateadores según tus necesidades
+  },
+})
+EOF
+
