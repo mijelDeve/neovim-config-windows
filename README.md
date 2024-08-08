@@ -20,4 +20,15 @@ https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 :DiffviewClose - Cierra la vista de diferencias.
 :DiffviewFileHistory - Muestra el historial de un archivo específico.
 
+:FlutterRun - Ejecutar flutter en modo desarrollo
+
+
+:vsplit - abrir segunda pantalla a la derecha
+:split - abir segunda pantalla abajo
+
+Ctrl+w, h: Moverse a la ventana de la izquierda.
+Ctrl+w, j: Moverse a la ventana de abajo.
+Ctrl+w, k: Moverse a la ventana de arriba.
+Ctrl+w, l: Moverse a la ventana de la derecha.
+Ctrl+w, w: Alternar entre ventanas.
 ```
