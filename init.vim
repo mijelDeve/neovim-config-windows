@@ -1,4 +1,5 @@
 
+
 set number
 set relativenumber
 set ruler
@@ -20,7 +21,18 @@ runtime ./plug-config.vim
 runtime ./keybindings.vim
 
 " ColorScheme
-colorscheme flow
+colorscheme gruvbox
 
 " Laravel config
 let g:coc_global_extensions = ['coc-phpls', 'coc-snippets']
+
+
+lua << EOF
+require("gruvbox").setup({
+  contrast = "hard",  -- "soft", "medium", "hard"
+})
+EOF
+
+colorscheme gruvbox
+
+

@@ -3,8 +3,12 @@ call plug#begin('~/.vim/plugged')
 " NERDTree - Navegar entre archivos
 Plug 'preservim/nerdtree'
 
+
 "Colorscheme
-Plug '0xstepit/flow.nvim'
+Plug 'nvim-lualine/lualine.nvim'          " (opcional, para la barra de estado)
+Plug 'ellisonleao/gruvbox.nvim'           " Tema Gruvbox (oscuro)
+Plug 'folke/tokyonight.nvim'              " Tema TokyoNight
+Plug '0xstepit/flow.nvim'                 " Tema Flow
 
 " Vim Airline
 Plug 'vim-airline/vim-airline'
